@@ -1,0 +1,86 @@
+<div style = "padding-left: 30%">
+    <H2> Search facility coming soon!! </H2>
+</div>
+<div style = "padding-top: 100px">
+    <table>
+        <tr>
+            <td style="padding-right: 48px">
+                <font color="blue">
+                    <div>
+                        <i> Trending in Delhi </i>
+                    </div>
+                    <div ng-controller = "homeController">
+                        <table>
+                            <tr ng-repeat = "dtag in delhiHashTags">
+                                <td> {{ dtag.id + 1 }} </td>
+                                <td> {{ dtag.text }} </td>
+                            </tr>
+                        </table>
+                    </div>
+                </font>
+            </td>
+            <td style="padding-top: 20px;padding-right: 48px">
+                <font color="orange">
+                    <div>
+                        <i> Trending in Paris </i>
+                    </div>
+                    <div ng-controller = "homeController">
+                        <table>
+                            <tr ng-repeat = "ptag in hashTagsParis">
+                                <td> {{ ptag.id + 1 }} </td>
+                                <td> {{ ptag.text }} </td>
+                            </tr>
+                        </table>
+                    </div>
+                </font>
+            </td>
+            <td style="padding-right: 48px">
+                <font color="purple">
+                    <div>
+                        <i> Trending in Bangkok </i>
+                    </div>
+                    <div ng-controller = "homeController">
+                        <table>
+                            <tr ng-repeat = "btag in hashTagsBangkok">
+                                <td> {{ btag.id + 1 }} </td>
+                                <td> {{ btag.text }} </td>
+                            </tr>
+                        </table>
+                    </div>
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-top: 80px; padding-left: 72px; padding-right: 48px;">
+                <font color="red">
+                    <div>
+                        <i> Trending on Politics </i>
+                    </div>
+                    <div ng-controller = "homeController">
+                        <table>
+                            <tr ng-repeat = "tag in hashTagsPolitics">
+                                <td> {{ tag.id + 1 }} </td>
+                                <td> {{ tag.text }} </td>
+                            </tr>
+                        </table>
+                    </div>
+                </font>
+            </td>
+            <td style="padding-top: 60px; padding-left: 72px; padding-right: 48px">
+                <font color="green">
+                    <div>
+                        <i> Trending on Environment </i>
+                    </div>
+                    <div ng-controller = "homeController">
+                        <table>
+                            <tr ng-repeat = "etag in hashTagsEnv">
+                                <td> {{ etag.id + 1 }} </td>
+                                <td> {{ etag.text }} </td>
+                            </tr>
+                        </table>
+                    </div>
+                </font>
+            </td>
+        </tr>
+    </table>
+</div>
