@@ -1,0 +1,15 @@
+<div class="col-lg-12 application_background_white chart-container">
+  <span class="chart-container_head_title">{{chartInputModel.focus_area_string}}: </span><span class="chart-container_head_title_2">{{chartInputModel.date_range_string}}</span>
+</div>
+
+<div class="col-lg-12 padding_0px">
+  <google-chart
+    *ngIf="chartData.length > 0"
+    [title]=""
+    [type]="'ColumnChart'"
+    [data]="chartData"
+    [options]="myOptions">
+  </google-chart>
+</div>
+
+

@@ -1,0 +1,38 @@
+<div class="search_container">
+
+
+  <div class="search-engine-name">
+    Seekr
+  </div>
+
+  <div class="date">
+    {{today | date:'EEEE, MMMM d, y'}}
+  </div>
+  <div style="border-bottom: 1px solid !important; border-bottom-color: var(--border-color-default) !important;">
+    <div class="input-group input-group-lg">
+    <!--<span class="input-group-btn"  style="cursor: default !important;">-->
+        <!--<button type="button" class="btn btn-default search_icon" (click)="performSearch(query)"  style="cursor: default !important;">-->
+          <!--<i class="material-icons" style="cursor: default !important;">search</i>-->
+        <!--</button>-->
+      <!--</span>-->
+      <input (keyup.enter)="performSearch(query)" [(ngModel)]="query"
+             class="form-control search_input search_input_text" placeholder="What are you looking for?" type="text">
+    </div>
+  </div>
+</div>
+
+<!--<div-->
+<!--class="offset-lg-1 col-lg-10 offset-md-1 col-md-10 offset-sm-1 col-sm-10 offset-1 col-10 mdl-card mdl-shadow&#45;&#45;4dp search_bar">-->
+<!--<div class="input-group input-group-lg">-->
+<!--<input type="text" class="form-control search_input body_text"-->
+<!--placeholder="Search by keywords, hashtags or usernames">-->
+<!--<span class="input-group-btn">-->
+<!--<button type="button" class="btn btn-default search_button">-->
+<!--&lt;!&ndash;<i class="material-icons">&ndash;&gt;-->
+<!--&lt;!&ndash;search-result&ndash;&gt;-->
+<!--&lt;!&ndash;</i>&ndash;&gt;-->
+<!--Search-->
+<!--</button>-->
+<!--</span>-->
+<!--</div>-->
+<!--</div>-->

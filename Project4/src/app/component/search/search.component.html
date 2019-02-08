@@ -1,0 +1,17 @@
+<div class="search-container padding-left-right-zero">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-12 padding-left-right-zero" style="height: calc(8rem + 2px);">
+    <app-search-query [searchPageQuery]= query (queryChange)=captureQueryChangeEvent($event)></app-search-query>
+  </div>
+
+  <div class="col-lg-3 col-md-1 col-sm-4 col-12 padding-left-right-zero" style="height: 100%;">
+    <app-search-filter (filtersEvent) = performFilterSearch($event)></app-search-filter>
+  </div>
+
+  <div class="col-lg-9 col-md-10 col-sm-8 col-12" style="padding-left: 40px; padding-right: 40px;" *ngIf="!hideSearchResults">
+    <app-search-result [query]= query [filterQuery] = filterQuery (facetInputEventEmitter)="captureFacetInputEvent($event)"></app-search-result>
+  </div>
+
+  <div class="col-lg-9 col-md-10 col-sm-8 col-12" style="height: auto; padding: 40px" *ngIf="hideSearchResults">
+    <app-search-analysis (searchAnalysisEvent) = "backToSearch($event)" [results]=facetInput></app-search-analysis>
+  </div>
+</div>

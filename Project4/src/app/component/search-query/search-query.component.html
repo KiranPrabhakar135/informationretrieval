@@ -1,0 +1,21 @@
+<div class="search_query_container col-lg-12">
+
+  <div class="col-lg-3 "  style="float:left; padding: 0;align-items:center;height:calc(8rem + 2px); display: flex">
+    <div class="search_engine_icon_container"  routerLink="/home">
+      <span class="fab fa-searchengin search_engine_icon "></span>
+    </div>
+
+
+  </div>
+  <div class="col-lg-9">
+    <div class="input-group input-group-lg">
+      <!--<span class="input-group-btn" style="cursor: default !important; visibility: visible">-->
+      <!--<i class="material-icons search_icon" style="cursor: default !important;">search</i>-->
+      <!--</span>-->
+
+      <input (keyup.enter)="performSearch(searchPageQuery)" [(ngModel)]="searchPageQuery"
+             class="form-control search_input search_input_text"
+             placeholder="What are you looking for?" type="text">
+    </div>
+  </div>
+</div>

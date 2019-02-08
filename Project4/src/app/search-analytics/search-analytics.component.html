@@ -1,0 +1,58 @@
+<div class="search_analytics_container">
+  <div class="trending_hashtags_title_container col-lg-12">
+    <div class="col-lg-9 padding_0px">
+
+    </div>
+    <div class="col-lg-3 padding_0px" style="float: right;">
+      <button routerLink="/home" class="btn search-result-analysis_button">Hide analysis</button>
+    </div>
+  </div>
+  <!--<div>-->
+  <!--<div id="1WeekCityChart" class="chartL">-->
+  <!--<p-chart type="bar" [data]="w_1"></p-chart>-->
+  <!--</div>-->
+  <!--<div id="1WeekTopicChart" class="chartR">-->
+  <!--<p-chart type="bar" [data]="tw_1"></p-chart>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--<div style="padding-top: 8%">-->
+  <!--<div id="1MonthCityChart" class="chartL">-->
+  <!--<p-chart type="bar" [data]="w_1"></p-chart>-->
+  <!--</div>-->
+  <!--<div id="1MonthTopicChart" class="chartR">-->
+  <!--<p-chart type="bar" [data]="tm_1"></p-chart>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--<div style="padding-top: 8%">-->
+  <!--<div id="1YCityChart" class="chartL">-->
+  <!--<p-chart type="bar" [data]="m_6"></p-chart>-->
+  <!--</div>-->
+  <!--<div id="1YTopicChart" class="chartR">-->
+  <!--<p-chart type="bar" [data]="tm_6"></p-chart>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <div class="col-lg-12 padding_0px">
+
+    <div class="col-lg-12 section_head_title_container">Total tweet counts</div>
+
+    <div class="col-lg-12 padding_0px">
+      <div class="col-lg-6 padding_0px"
+           *ngFor="let inputModel of chartInputModelList">
+
+        <app-count-chart [chartInputModel]="inputModel"></app-count-chart>
+      </div>
+    </div>
+
+    <div class="col-lg-12 section_head_title_container">Most popular hashtags</div>
+
+    <div class="col-lg-12 padding_0px">
+
+      <div class="col-lg-6 padding_0px"
+           *ngFor="let inputModel of hashtagFacetInputModelList">
+
+        <app-hashtag-chart [hashtagFacetInputModel]="inputModel"></app-hashtag-chart>
+      </div>
+    </div>
+  </div>
+</div>

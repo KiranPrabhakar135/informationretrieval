@@ -1,0 +1,15 @@
+<div class="search_analysis_container" style="overflow:auto">
+  <div class="clearfix" style="padding:10px">
+    <div class="analysis_container_head_title_container float-left">
+      <h3 class="section_heading analysis_container_head_title">Analysis</h3>
+    </div>
+    <div  class="float-right">
+      <button (click)="backToSearch()" class="btn search-result-button">Search Results</button>
+    </div>
+  </div>
+  <div >
+
+    <app-chart [results]=results></app-chart>
+
+  </div>
+</div>

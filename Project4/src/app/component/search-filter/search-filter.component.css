@@ -1,0 +1,197 @@
+.filter_container {
+  background: var(--background-color-white);
+  height: 100%;
+}
+
+.filter_container_head {
+  padding: 24px 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.filter_container_head_title_container {
+  display: flex;
+  align-items: center;
+}
+
+.filter_container_head_title {
+  padding: 0;
+  margin: 0;
+  color: var(--text-color-primary-normal) !important;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+}
+
+.filter_type_container {
+  margin-top: 24px;
+}
+
+.filter-head {
+  padding: 0 15px;
+  height: 40px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.filter_title_container {
+  min-height: 39px;
+  display: flex;
+  align-items: center;
+}
+
+.filter_title {
+  padding: 0 8px;
+  margin: 0;
+  color: var(--text-color-disabled-dark) !important;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+}
+
+.filter_clear_all_container {
+  min-height: 49px;
+  display: flex;
+  align-items: center;
+}
+
+.filter_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0px 15px;
+}
+
+.filter-button-style {
+  text-align: left;
+  background: var(--background-color-white);
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+  color: var(--text-color-disabled-normal);
+  border: 1px solid var(--border-color-default);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.filter-button-style:hover {
+  color: var(--accent-color-dark);
+  border: 1px solid var(--accent-color-hover);
+  background: var(--background-color-white);
+}
+
+.filter-button-style:active {
+  color: var(--accent-color-dark);
+  border: 1px solid var(--accent-color-hover);
+  background: var(--background-color-white);
+}
+
+.filter-button-style:show {
+  color: var(--accent-color-dark);
+  border: 1px solid var(--accent-color-hover);
+  background: var(--background-color-white);
+}
+
+
+.btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0;
+}
+
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+  color: var(--accent-color-dark);
+  border: 1px solid var(--accent-color-hover);
+  background: var(--background-color-white);
+}
+
+.filter {
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 4px 4px;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid var(--border-color-default);
+}
+
+.filter_disabled_text {
+  font-size: 1rem;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color-disabled-normal);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+}
+
+.filter_text {
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color-primary-normal);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+}
+
+select:focus {
+  outline: none !important;
+  border-color: 1px solid var(--border-color-default);
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .075), 0 0 0 rgba(102, 175, 233, .6);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, .0), 0 0 0 rgba(102, 175, 233, .6);
+}
+
+.filter_clear_button {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  font-size: 1.25rem;
+  text-transform: none;
+  font-weight: 500;
+  line-height: 1;
+  padding-left: 0;
+  padding-right: 0;
+  color: var(--accent-color-normal);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+}
+
+.filter_clear_button:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: var(--accent-color-dark);
+}
+
+.filter_clear_button:active {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: var(--accent-color-dark);
+  font-weight: 700;
+}
+
+
+.filter_clear_container {
+  min-height: 39px;
+  display: flex;
+  align-items: center;
+}
+
+
+.textarea {
+  width: 100%;
+  line-height: 1.5;
+}
+
+.filter-datepicker-height {
+  height: 100%;
+}
+
+.bs-datepicker-head {
+  color: #5D78FF !important;
+}

@@ -1,0 +1,56 @@
+<div class="search_container">
+
+  <div *ngIf="searched" class="result_summary col-lg-12">
+    <div *ngIf="query" class="col-lg-9 padding-0px">
+      {{totalTweets| number}} results found for "{{query}}"
+    </div>
+
+    <div *ngIf="query" class="col-lg-3 padding-0px">
+      <button (click)="sendMessage()" class="btn search-result-analysis_button">Analyse result</button>
+    </div>
+  </div>
+
+  <div *ngIf="totalTweets > 0" class="col-lg-12 padding-0px" style="margin-top: 0px; padding-left: 0; padding-right: 0">
+    <div class=" col-lg-12 padding-0px"
+      *ngFor="let result of results | paginate: { id: 'server', itemsPerPage: 10, currentPage: currentPage, totalItems: totalTweets}">
+      <app-search-result-item [tweet]=result></app-search-result-item>
+    </div>
+    <div class="text-center pagination-container col-lg-12 padding-0px">
+      <pagination-controls (pageChange)="getPage($event)" autoHide="true" directionLinks='true' id='server'
+                           nextLabel="" previousLabel="" responsive="true"></pagination-controls>
+    </div>
+    <!--<button (click)="sendMessage()" class="button">Send Tweet</button>-->
+  </div>
+
+
+</div>
+
+
+<!--<div class="application_background_off_white search_container">-->
+
+
+<!--<div class="row">-->
+
+
+<!---->
+<!--</div>-->
+<!--<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" role="dialog"-->
+<!--tabindex="-1">-->
+<!--<div class="modal-dialog" role="document">-->
+<!--<div class="modal-content">-->
+<!--<div class="modal-header">-->
+<!--<h5 class="modal-title" id="exampleModalLabel">Tweet Details</h5>-->
+<!--<button aria-label="Close" class="close" data-dismiss="modal" type="button">-->
+<!--<span aria-hidden="true">&times;</span>-->
+<!--</button>-->
+<!--</div>-->
+<!--<div class="modal-body">-->
+<!--...-->
+<!--</div>-->
+<!--<div class="modal-footer">-->
+<!--<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->

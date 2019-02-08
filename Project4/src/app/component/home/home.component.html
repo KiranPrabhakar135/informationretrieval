@@ -1,0 +1,25 @@
+<div class="application_background_off_white" style="padding: 16px;">
+  <div class="navigation" style="visibility: hidden">
+    <a routerLink="/analysis"> Show Time Analysis</a>
+  </div>
+
+  <app-query (freeTextSearch)="captureFreeTextSearchEvent($event)"></app-query>
+  <div class="row">
+    <div class="trending_hashtags_title_container col-lg-12">
+      <div class="col-lg-9">
+        Trending hashtags
+      </div>
+      <div class="col-lg-3" style="float: right;">
+        <button routerLink="/analysis" class="btn search-result-analysis_button">Analyse</button>
+      </div>
+    </div>
+    <div class="hashtag_grid">
+      <div class="application_white_container hashtag_grid_container"
+           *ngFor="let inputModel of hashtagFacetInputModelList">
+
+        <app-hashtags (triggerHashTagSearchEvent)="captureHashtagSearchEvent($event)"
+                      [hashtagFacetInputModel]="inputModel"></app-hashtags>
+      </div>
+    </div>
+  </div>
+</div>

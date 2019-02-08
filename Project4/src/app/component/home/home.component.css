@@ -1,0 +1,50 @@
+.trending_hashtags_title_container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #3d4465;
+  font-weight: 500;
+  line-height: 1.8;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.show_time_analysis {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+  font-size: 1.5rem !important;
+  color: var(--text-color-primary-normal);
+  font-weight: 500 !important;
+  line-height: 1.8;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.hashtag_grid {
+  padding: 16px 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 16px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.hashtag_grid_container {
+  border-radius: 4px;
+  min-height: 250px;
+}
+
+.navigation {
+  right: 0px;
+  padding-left: 85%;
+}
+
+
+.search-result-analysis_button {
+  vertical-align: middle;
+  text-align: right;
+  float: right;
+  background: var(--accent-color-dark);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--background-color-white);
+  margin: auto;
+}

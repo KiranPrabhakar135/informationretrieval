@@ -1,0 +1,60 @@
+<div class="search-result-item-container padding_0_px col-lg-12">
+
+  <div class="col-lg-9 padding_0_px">
+    <div
+      class="search-result-item-title-container search-result-item-title col-lg-12">{{tweet.text_filtered}}</div>
+
+    <div class="search-result-item-link-container col-lg-12">
+      <a target="_blank" class="search-result-item-link" href="https://twitter.com/{{tweet['user.screen_name']}}/status/{{tweet.id}}">https://twitter.com/{{tweet['user.screen_name']}}
+        /status/{{tweet.id}}</a>
+    </div>
+    <div *ngIf="tweet['entities.hashtags.text']" class="search-result-item-hashtags-container  col-lg-12">
+    <span *ngFor="let hashtag of tweet['entities.hashtags.text']" class="hashtag hashtag_text">
+      #{{hashtag}}
+    </span>
+    </div>
+
+    <div *ngIf="!tweet['entities.hashtags.text'] && tweet['entities.user_mentions.screen_name']"
+         class="search-result-item-hashtags-container  col-lg-12">
+    <span *ngFor="let usermention of tweet['entities.user_mentions.screen_name']" class="hashtag hashtag_text">
+      @{{usermention}}
+    </span>
+    </div>
+
+    <div
+      *ngIf="!tweet['entities.hashtags.text'] && !tweet['entities.user_mentions.screen_name'] && tweet['entities.urls.display_url']"
+      class="search-result-item-hashtags-container  col-lg-12">
+    <span *ngFor="let url of tweet['entities.urls.display_url']" class="hashtag hashtag_text">
+      {{url}}
+    </span>
+    </div>
+
+    <div class="search-result-item-body-container search-result-item-body  col-lg-12">
+      {{tweet.text}}
+    </div>
+
+    <div class="col-lg-12 padding_0_px">
+      <div class="search-result-item-date-container search-result-item-date"
+           style="display: flex; justify-content: space-between">
+        <div style="display: flex; color: var(--accent-color-dark);">
+          <span class="fas fa-retweet" style="vertical-align: middle;line-height: inherit; margin-top: 2px;"></span>
+          <div style="padding-right: 8px; padding-left: 8px;">{{tweet.retweet_count}}</div>
+        </div>
+        <div style="display: flex; color: var(--accent-color-dark);">
+          <span class="fas fa-heart" style="vertical-align: middle;line-height: inherit; margin-top: 2px;"></span>
+          <div style="padding-right: 8px; padding-left: 8px;">{{tweet.favorite_count}}</div>
+        </div>
+        <div>
+          {{tweet.created_at | date:'dd MMM, yyyy hh:mm a'}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3  padding_0_px" style="display: flex; float: right;">
+
+    <button (click)="onItemClick()" class="btn search-result-analysis_button">Analyse tweet</button>
+  </div>
+
+
+</div>

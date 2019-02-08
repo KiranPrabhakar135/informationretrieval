@@ -1,0 +1,90 @@
+:host /deep/ .ngx-pagination{
+  display: inline-block;
+  padding: 0;
+}
+:host /deep/ .ngx-pagination a{
+  color: var(--accent-color-dark);
+}
+:host /deep/ .ngx-pagination a:focus{
+  outline: none;
+}
+:host /deep/ .ngx-pagination .current{
+  color: var(--text-color-primary-dark);
+  background: var(--background-color-default);
+}
+:host /deep/ .ngx-pagination li{
+  color: #4285f4
+}
+:host /deep/ .ngx-pagination li.disabled{
+  color: #cacaca !important;
+}
+:host /deep/ .ngx-pagination li :hover{
+  cursor: pointer;
+  background: var(--background-color-default);
+  text-decoration: none;
+}
+
+.search_container {
+  min-height: 100%;
+}
+
+.result-card {
+  /*margin-top: 10px;*/
+  /*min-height: 100px;*/
+  /*padding: 5px;*/
+  /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);*/
+  /*background-color: #fff;*/
+  /*border-radius: 2px;*/
+  /*display: block;*/
+  /*overflow: hidden;*/
+}
+
+.result-card:hover {
+  /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(93, 120, 255, 0.4);*/
+}
+
+.result-card a {
+  /*color: var(--accent-color-dark);*/
+  /*white-space: nowrap;*/
+  /*text-overflow: ellipsis;*/
+  /*width: 100%;*/
+  /*display: block;*/
+  /*overflow: hidden;*/
+  /*cursor: pointer;*/
+}
+
+.pagination-container {
+  padding: 20px;
+}
+
+pagination-controls {
+  margin-top: 32px;
+}
+
+.result_summary {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+  color: var(--text-color-primary-normal);
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: normal;
+  padding: 0;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.padding-0px {
+  padding: 0px !important;
+}
+
+.search-result-analysis_button {
+  vertical-align: middle;
+  text-align: right;
+  float: right;
+  background: var(--accent-color-dark);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--background-color-white);
+  margin: auto;
+}
+

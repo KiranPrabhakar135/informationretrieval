@@ -1,0 +1,41 @@
+.search_analysis_container {
+  background: var(--background-color-white);
+  height: 100%;
+}
+
+.analysis_container_head {
+  padding: 0 15px;
+  height: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color-default);
+}
+
+.analysis_container_head_title_container {
+  min-height: 49px;
+  display: flex;
+  align-items: center;
+}
+
+.analysis_container_head_title {
+  padding: 0;
+  margin: 0;
+  color: var(--text-color-primary-normal) !important;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+}
+.search-result-button {
+  vertical-align: middle;
+  text-align: right;
+  float: right;
+  background: var(--accent-color-dark);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arvo, Roboto, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--background-color-white);
+  margin: auto;
+}

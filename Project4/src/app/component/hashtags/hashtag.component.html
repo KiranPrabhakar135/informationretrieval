@@ -1,0 +1,24 @@
+<div class="hashtag-head">
+  <!--<div class="hashtag_symbol_container">-->
+    <!--<span class="glyphicon glyphicon-star" aria-hidden="true"></span>-->
+  <!--</div>-->
+  <div class="hashtag_title_container">
+    <h3 (click)="triggerSearch(hashtagFacetInputModel.focus_area, hashtagFacetInputModel.value,'', false)"
+        class="subsection_heading hashtag_title cursor_pointer">{{hashtagFacetInputModel.value_display_string}}</h3>
+  </div>
+  <div class="hashtag_symbol_container">
+  <!--<span class="glyphicon glyphicon-star" aria-hidden="true"></span>-->
+    <button class="btn btn-default cursor_pointer" style="cursor: default !important;" type="button">
+      <i (click)="triggerSearch(hashtagFacetInputModel.focus_area, hashtagFacetInputModel.value,'',true)"
+         class="material-icons" style="cursor: default !important;">open_in_new</i>
+    </button>
+  </div>
+</div>
+
+<div class="hashtag_body">
+    <span class="hashtag hashtag_text"
+          (click)="triggerSearch(hashtagFacetInputModel.focus_area,hashtagFacetInputModel.value,hashtag.key,false)"
+          *ngFor="let hashtag of hashtagFacetFields.hashtags | keyvalue">
+      #{{hashtag.key}}
+    </span>
+</div>

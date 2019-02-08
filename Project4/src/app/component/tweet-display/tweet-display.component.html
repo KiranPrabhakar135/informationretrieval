@@ -1,0 +1,205 @@
+<!--<div class="tweet-display-container">-->
+<!--<div> <img src="{{tweet['user.profile_image_url'][0].replace('normal', '400x400')}}" width="50" height="60"> </div>-->
+<!--<div>Tweet text: {{tweet.text}}</div>-->
+<!--<div> Name: {{ tweet['user.name'] }}<br> Screen Name: {{tweet['user.screen_name']}} </div>-->
+<!--<div *ngIf="tweet['entities.hashtags.text']"> Hashtags: {{tweet['entities.hashtags.text']}} </div>-->
+<!--<div *ngIf="tweet['entities.urls.display_url']">URLs : {{ tweet['entities.urls.display_url'] }} </div>-->
+<!--<div class="text-capitalize">-->
+<!--City: {{ tweet['queryMetadata.query_city'] }}<br>-->
+<!--Topic: {{ tweet['queryMetadata.query_topic'] }}<br>-->
+<!--Language: {{tweet['queryMetadata.query_language'] }}<br>-->
+<!--</div>-->
+<!--<div></div>-->
+<!--</div>-->
+<!--<br>-->
+<div class="col-xl-12 col-lg-12 padding_0px">
+  <div class="col-lg-12 padding_0px">
+
+    <div class="col-lg-2">
+      <img alt="" class="align-self-center rounded-circle mr-3"
+           src="{{tweet['user.profile_image_url'][0].replace('normal', '400x400')}}" style="width:60px; height:60px;">
+    </div>
+
+    <div class="col-lg-10 padding_0px">
+      <div class="col-lg-12 user_name">
+        {{tweet['user.name']}}
+      </div>
+
+      <div class="col-lg-12 user_screen_name">
+        {{tweet['user.screen_name']}}
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="col-lg-12 padding_0px" style="padding-top: 20px;">
+
+
+  </div>
+
+  <div class="col-lg-12 tweet_text">
+
+    {{tweet.text}}
+  </div>
+
+  <div class="col-lg-12" style="padding-top: 12px;">
+
+    <span style="font-weight: bold">{{tweet['retweet_count'] | number }}</span><span> Retweets   </span><span
+    style="font-weight: bold">{{tweet['favorite_count'] | number }}</span><span> Likes</span>
+  </div>
+
+  <div class="col-lg-12 tweet_date" style="padding-top: 12px; ">
+
+    <span>{{tweet['created_at'] | date:'dd MMM, yyyy hh:mm a' }}</span>
+  </div>
+
+
+  <div class="col-lg-12" style="margin-top: 30px; padding-left: 15px; padding-right: 15px; ">
+
+    <div class="col-lg-12" style="border-top: 1px solid var(--border-color-default)">
+      <div class="col-lg-12 padding_0px sentiment_analysis_heading" style="margin-top: 30px; text-align: center;">
+        Sentiment Analysis for the tweet
+      </div>
+      <div class="col-lg-12 padding_0px" style="margin-top: 10px; text-align: center;">
+        Score for this tweet: {{documentScore}}</div>
+      <div class="col-lg-12 padding_0px" style="margin-top: 5px; text-align: center;">
+        Magnitude for this tweet: {{documentMagnitude}}</div>
+
+
+      <div style="">
+        <div class="range style-scope nl-sentiment" style="padding: 16px; margin-left: 50px">
+          <div class="positive style-scope nl-sentiment col-lg-4">0.25 <span class="style-scope nl-sentiment">—</span>
+            1.0
+          </div>
+          <div class="neutral style-scope nl-sentiment col-lg-4">-0.25 <span class="style-scope nl-sentiment">—</span>
+            0.25
+          </div>
+          <div class="negative style-scope nl-sentiment col-lg-4">-1.0 <span class="style-scope nl-sentiment">—</span>
+            -0.25
+          </div>
+          <div class="tooltip" id="tooltip">
+          <span class="tooltiptext">
+          Score of the sentiment ranges from -1.0 (very negative) to 1.0 (very positive).
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="col-lg-4 padding_0px">-->
+      <!--<div class="col-lg-12 info_value">-->
+      <!--{{tweet['queryMetadata.query_topic'] }}-->
+      <!--</div>-->
+
+      <!--<div class="col-lg-12 info_key">-->
+      <!--Topic-->
+      <!--</div>-->
+      <!--</div>-->
+
+      <!--<div class="col-lg-4 padding_0px">-->
+      <!--<div class="col-lg-12 info_value">-->
+      <!--{{tweet['queryMetadata.query_city'] }}-->
+      <!--</div>-->
+
+      <!--<div class="col-lg-12 info_key">-->
+      <!--City-->
+      <!--</div>-->
+      <!--</div>-->
+
+      <!--<div class="col-lg-4 padding_0px">-->
+      <!--<div class="col-lg-12 info_value">-->
+      <!--{{tweet['queryMetadata.query_language'] }}-->
+      <!--</div>-->
+
+      <!--<div class="col-lg-12 info_key">-->
+      <!--Language-->
+      <!--</div>-->
+      <!--</div>-->
+
+
+    </div>
+
+  </div>
+
+
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!--<section class="card">-->
+  <!--<div class="twt-feed blue-bg">-->
+  <!--<div class="corner-ribon black-ribon">-->
+  <!--<span class="fab fa-twitter"></span>-->
+  <!--</div>-->
+  <!--<div class="fab fa-twitter wtt-mark"></div>-->
+
+  <!--<div class="media">-->
+  <!--<img alt="" class="align-self-center rounded-circle mr-3"-->
+  <!--src="{{tweet['user.profile_image_url'][0].replace('normal', '400x400')}}" style="width:85px; height:85px;">-->
+  <!--<div class="media-body">-->
+  <!--<h2 class="text-white display-6">{{tweet['user.name']}}</h2>-->
+  <!--<p class="text-light">{{tweet['user.screen_name']}}</p>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="row" style="padding: 16px;text-transform: capitalize;">-->
+
+  <!--<div class="col-lg-12" style="margin-top: 16px;">-->
+  <!--<span class="subsubsection_heading">Tweet text</span>-->
+  <!--</div>-->
+  <!--<div class="col-lg-12 body_text">-->
+  <!--{{tweet.text}}-->
+  <!--</div>-->
+
+  <!--<div class="col-lg-12" style="margin-top: 16px;">-->
+  <!--<span class="subsubsection_heading">Topic</span>-->
+  <!--</div>-->
+  <!--<div class="col-lg-12 body_text">-->
+  <!--{{ tweet['queryMetadata.query_topic'] }}-->
+  <!--</div>-->
+
+  <!--<div class="col-lg-12" style="margin-top: 16px;">-->
+  <!--<span class="subsubsection_heading">Language</span>-->
+  <!--</div>-->
+  <!--<div class="col-lg-12 body_text">-->
+  <!--{{tweet['queryMetadata.query_language'] }}-->
+  <!--</div>-->
+
+  <!--<div class="col-lg-12" style="margin-top: 16px;">-->
+  <!--<span class="subsubsection_heading">Location</span>-->
+  <!--</div>-->
+  <!--<div class="col-lg-12 body_text">-->
+  <!--<span class="fas fa-map-marker-alt" style="margin-right: 4px"></span>{{tweet['queryMetadata.query_city'] }}-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!---->
+  <!--<br>-->
+  <!---->
+  <!--</section>-->
+</div>
+<!--<br>-->
+<!--<div class="social-box twitter">-->
+<!--<span class="fab fa-twitter"></span>-->
+<!--<div class="clearfix padding_16_px">-->
+<!--<div class="float-left width-50-per" style="border-right: 1px solid #c2cfd6;">-->
+<!--<strong><div class="count">{{tweet['retweet_count']}}</div>-->
+<!--<div>retweets</div>-->
+<!--</strong>-->
+<!--</div>-->
+<!--<div></div>-->
+<!--<div class="float-left width-50-per">-->
+<!--<strong><div class="count">{{tweet['favorite_count']}}</div>-->
+<!--<div>favourites</div>-->
+<!--</strong>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--</div>-->

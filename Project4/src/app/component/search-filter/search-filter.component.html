@@ -1,0 +1,139 @@
+<div class="filter_container">
+  <div class="filter_container_head">
+    <div class="filter_container_head_title_container">
+      <h3 class="section_heading filter_container_head_title">Filters</h3>
+    </div>
+    <div class="filter_clear_all_container">
+      <button (click)="clearText('all')" class="btn btn-default filter_clear_button"
+              onclick="getElementById('date').value = 'Select a date'" type="button">
+        Clear all
+      </button>
+    </div>
+  </div>
+  <div class="filter_type_container">
+    <div class="filter-head">
+      <div class="filter_title_container">
+        <span class="fas fa-question-circle" style="color: var(--text-color-disabled-dark)"></span>
+        <h3 class="subsection_heading filter_title">Topic</h3>
+      </div>
+      <div class="filter_clear_container">
+        <button (click)="clearText('topic')" class="btn btn-default filter_clear_button" type="button">
+          Clear
+        </button>
+      </div>
+    </div>
+    <div class="filter_body">
+      <div class="dropdown d-inline-block" style="width: 100% !important;">
+        <button aria-expanded="false" aria-haspopup="true"
+                class="btn btn-secondary dropdown-toggle btn-block filter-button-style" data-toggle="dropdown"
+                type="button">
+          {{selectedTopic != null ? selectedTopic.display : 'Select a topic'}}
+        </button>
+        <div aria-labelledby="dropdownMenuButton" class="dropdown-menu w-100">
+          <a *ngFor="let topic of filterInputModelListOfTopic" class="dropdown-item filter_text"
+             (click)="selectNewTopic(topic)">{{topic.display}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="filter_type_container">
+    <div class="filter-head">
+      <div class="filter_title_container">
+        <span class="fas fa-american-sign-language-interpreting" style="color: var(--text-color-disabled-dark)"></span>
+        <h3 class="subsection_heading filter_title">Language</h3>
+      </div>
+      <div class="filter_clear_container">
+        <button (click)="clearText('language')" class="btn btn-default filter_clear_button" type="button">
+          Clear
+        </button>
+      </div>
+    </div>
+    <div class="filter_body">
+      <div class="dropdown d-inline-block" style="width: 100% !important;">
+        <button aria-expanded="false" aria-haspopup="true"
+                class="btn btn-secondary dropdown-toggle btn-block filter-button-style" data-toggle="dropdown"
+                type="button">
+          {{selectedLanguage != null ? selectedLanguage.display : 'Select a language'}}
+        </button>
+        <div aria-labelledby="dropdownMenuButton" class="dropdown-menu w-100">
+          <a *ngFor="let language of filterInputModelListOfLanguage" class="dropdown-item filter_text"
+             (click)="selectNewLanguage(language)">{{language.display}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="filter_type_container">
+    <div class="filter-head">
+      <div class="filter_title_container">
+        <span class="fas fa-globe-asia" style="color: var(--text-color-disabled-dark)"></span>
+        <h3 class="subsection_heading filter_title">City</h3>
+      </div>
+      <div (click)="clearText('city')" class="filter_clear_container filter_clear_button noselect">
+        Clear
+      </div>
+    </div>
+    <div class="filter_body">
+      <div class="dropdown d-inline-block" style="width: 100% !important;">
+        <button aria-expanded="false" aria-haspopup="true"
+                class="btn btn-secondary dropdown-toggle btn-block filter-button-style" data-toggle="dropdown"
+                type="button">
+          {{selectedCity != null ? selectedCity.display : 'Select a city'}}
+        </button>
+        <div aria-labelledby="dropdownMenuButton" class="dropdown-menu w-100">
+          <a *ngFor="let city of filterInputModelListOfCity" class="dropdown-item filter_text"
+             (click)="selectNewCity(city)">{{city.display}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="filter_type_container">
+    <div class="filter-head">
+      <div class="filter_title_container">
+        <span class="fas fa-calendar-alt" style="color: var(--text-color-disabled-dark)"></span>
+        <h3 class="subsection_heading filter_title">Date</h3>
+      </div>
+      <div class="filter_clear_container">
+        <button (click)="clearText('date')" class="btn btn-default filter_clear_button"
+                onclick="getElementById('date').value = 'Select a date'" type="button">
+          Clear
+        </button>
+      </div>
+    </div>
+    <div class="filter_body">
+      <input [(ngModel)]="daterangepickerModel " (ngModelChange) = "onDateChange($event)" [bsConfig]="bsConfig"
+             [maxDate]="maxDate" class="btn btn-secondary dropdown-toggle btn-block
+             filter-datepicker-height filter-button-style" format="L"
+             aria-expanded="false" aria-haspopup="true" bsDaterangepicker
+             id='date' placement="right" type="textarea" value={{clearDate}}
+      />
+    </div>
+  </div>
+
+  <div class="filter_type_container">
+    <div class="filter-head">
+      <div class="filter_title_container">
+        <span class="fas fa-sort" style="color: var(--text-color-disabled-dark)"></span>
+        <h3 class="subsection_heading filter_title">Sort By</h3>
+      </div>
+      <div (click)="clearText('sort')" class="filter_clear_container filter_clear_button noselect">
+        Clear
+      </div>
+    </div>
+    <div class="filter_body">
+      <div class="dropdown d-inline-block" style="width: 100% !important;">
+        <button aria-expanded="false" aria-haspopup="true"
+                class="btn btn-secondary dropdown-toggle btn-block filter-button-style" data-toggle="dropdown"
+                type="button">
+          {{selectedSort != null ? selectedSort.display : 'Select Sort Criteria'}}
+        </button>
+        <div aria-labelledby="dropdownMenuButton" class="dropdown-menu w-100">
+          <a *ngFor="let sort of sortInputModelList" class="dropdown-item filter_text"
+             (click)="selectSortOrder(sort)">{{sort.display}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

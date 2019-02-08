@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/*Color values*/
+:root {
+  --text-color-primary-dark: #212121;
+  --text-color-primary-light: #3D446577;
+  --text-color-primary-normal: #3D4465FF;
+  --text-color-disabled-dark: #555555;
+  --text-color-disabled-normal: #777777;
+  --accent-color-dark: #5D78FF;
+  --accent-color-light: rgba(93, 120, 255, 0.1);
+  --accent-color-hover: rgba(93, 120, 255, 0.5);
+  --accent-color-normal: #6CB2EE77;
+
+
+  --background-color-default: #F9F9FC;
+  --background-color-white: #FFFFFFFF;
+  --border-color-default: #EBEDF2;
+  --section_heading_size: 24px;
+  --sub_section_heading_size: 20px;
+  --sub_sub_section_heading_size: 16px;
+  --body_text_size: 14px;
+  --body_text_size_small: 12px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                   supported by Chrome and Opera */
+}
+
+
+input {
+  height: 12px;
+  line-height: normal;
+  line-height: 12px\0/; /* for IE 8 */
+}
+
+body {
+  /*margin: 2em;*/
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  font-family: Arvo, Roboto, Helvetica, sans-serif !important;
+  color: #272727 !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+  font-size: 10px;
+  font-family: Arvo, Roboto, Helvetica, sans-serif !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.application_white_container {
+  box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+  background: var(--background-color-white);
+}
+
+.application_background_off_white {
+  background: var(--background-color-default);
+}
+
+.application_background_white {
+  background: var(--background-color-white);
+}
+
+.search-engine-name {
+  padding-top: 80px;
+  font-family: Arvo, Roboto, Helvetica, sans-serif;
+  color: var(--text-color-primary-normal);
+  font-size: 7rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 80px;
+
+}
+
+.section_heading {
+  font-family: Arvo, Roboto, Helvetica, sans-serif;
+  color: var(--text-color-primary-dark);
+  font-size: var(--section_heading_size);
+  font-weight: 600;
+}
+
+.subsection_heading {
+  font-family: Arvo, Roboto, Helvetica, sans-serif;
+  color: var(--text-color-primary-dark);
+  font-size: var(--sub_section_heading_size);
+  font-weight: 600;
+}
+
+.subsubsection_heading {
+  font-family: Arvo, Roboto, Helvetica, sans-serif;
+  font-size: var(--sub_sub_section_heading_size);
+  font-weight: 500;
+}
+
+.body_text {
+  font-family: Arvo, Roboto, Helvetica, sans-serif !important;
+  color: var(--text-color-primary-dark) !important;
+  font-size: var(--body_text_size);
+  font-weight: 400;
+}
+
+.text_color_primary {
+  color: var(--text-color-primary-normal);
+}
+
+.text_color_primary_dark {
+  color: var(--text-color-primary-dark);
+}
+
+.text_color_primary_light {
+  color: var(--text-color-primary-light);
+}
+
+.padding_16_px {
+  padding: 16px
+}
+
+.padding_5px {
+  padding: 5px;
+}
+
+.padding_0px {
+  padding: 0 !important;
+}
+
+.color_red {
+  color: #f16262;
+}
+
+.color_blue {
+  color: var(--accent-color-normal);
+}
+
+.margin_3px {
+  margin: 3px;
+}
+
+.font_family {
+  font-family: Arvo, Roboto, Helvetica, sans-serif;
+}
+
+.timestamp_color {
+  color: #808080
+}
+
+.cursor_pointer, cursor_pointer:hover {
+  cursor: pointer;
+}
+ul.ngx-pagination{
+  margin:20px;
+}
+
+.width-50-per {
+  width: 50%
+}
