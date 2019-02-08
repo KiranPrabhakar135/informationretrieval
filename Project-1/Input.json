@@ -1,0 +1,1119 @@
+[{
+	"name":"snow+fall",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"dust+storm",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"global+warming",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"floods",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"droughts",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"storms",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"summer",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"rainfall",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"smog",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"mist",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"acid+rain",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"aerosol",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"atmosphere",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"bio+degradable",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"biodiversity",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"biosphere",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"carbon+dioxide",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"catastrophes",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"climate",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"rainforests",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"dirt",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"hazardous+waste",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"ecosystem",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"emission",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"energy+conservation",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"endangered",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"erosion",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"geothermal",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"industrial+waste",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"natural+gas",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"ozone+layer",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"oxygen",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"oil+slick",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"pollution",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"precipitation",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"recycle",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"renewable",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"sewage",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"sewage+plant",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"toxic+waste",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"biohazard",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"carbon+footprint",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"climate+change",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"conservation",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"contaminate",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"ecological",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"ecoterrorism",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"green+house",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"trees",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"food+chain",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"photosynthesis",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"sanctuary",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"environment"
+},
+{
+	"name":"robbery",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Blackmail",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Kidnap",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Abuse",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Accused",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Arson",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Autopsy",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Behind+bars",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Corruption",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Criminal",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Custody",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"FBI",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Harassment",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Handcuffs",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Homicide",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Heinous",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Juvenile",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Lawfully",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Patrol",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Prosecute",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Punishment",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Prostitution",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Rape",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Serial+killer",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Rogue",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Smuggling",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Sex+crimes",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Suspect",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"violate",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"arrest",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"police",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"crime"
+},
+{
+	"name":"Economy",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Campaign",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Poll",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"voting",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Modi",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"government",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"political",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"public+service",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"democrats",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Cabinet",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"ballot",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Democracy",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Electoral+college",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Federal",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Judicial",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"assembly+hall",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"parlament",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"minister",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"governor",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"mayor",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"constitution",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"foreign+affairs",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"United+Nations",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"president",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"realDonaldTrump",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"DonaldTrump",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},{
+	"name":"narendramodi",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"XiJinping",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"president",
+	"weight": 2,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"realDonaldTrump",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"DonaldTrump",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"prdthailand",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"EmmanuelMacron",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"MaithripalaS",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"EPN",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"BarackObama",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Johndingell",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Johnkerry",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"MittRomney",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"algore",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"SenJohnMcCain",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"Schwarzenegger",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"politics"
+},
+{
+	"name":"protest",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"strikes",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"riots",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"turmoil",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"crisis",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"tumult",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"debate",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"mortification",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"war",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"bomb+blast",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"terror+attack",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"social unrest"
+},
+{
+	"name":"roads",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"sanitation",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"water",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"power",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"rail",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"ports",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"dams",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"buildings",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"telecom",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"internet",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"transport",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"pipeline",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"broadband",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"highway",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"technology",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"urbanization",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"Airport",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"hospitals",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"parks",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"lighthouses",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"water+supply",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"public+transport",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"Educational+institution",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+},
+{
+	"name":"architecture",
+	"weight": 1,
+	"iterationCount": 0 ,
+	"tweetCount": 0,
+	"mainCategory":"infra"
+}]
